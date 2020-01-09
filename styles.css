@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    background-color: whitesmoke;
+}
+
+div {
+    position: relative;
+    text-align: center;
+}
+
+.Hidden {
+    padding-left: 27px;
+    border: 1px solid #88B13E;
+    background-clip: padding-box;
+    background-color: #ABDA55;
+}
+.Empty {
+    padding-left: 27px;
+    border: 1px solid #D4B89A;
+    background-clip: padding-box;
+    background-color: #E1C2A0;
+}
+.Number {
+    text-align: left;
+    padding-left: 13px;
+    border: 1px solid #D4B89A;
+    background-clip: padding-box;
+    background-color: #E1C2A0;
+}
+.Highlighted {
+    /*
+    color: red;
+    padding-left: 17px;
+    border: 1px solid #88B13E;
+    background-clip: padding-box;
+    background-color: #ABDA55;*/
+    padding-left: 27px;
+    border: 1px solid rgb(80, 83, 255);
+    background-clip: padding-box;
+    background-color: rgb(85, 116, 218);
+}
+.revealed {
+    padding-left: 27px;
+    border: 1px solid rgb(189, 73, 73);
+    background-clip: padding-box;
+    background-color: rgb(218, 85, 107);
+}
+
+span {
+    text-align: left !important;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: x-large;
+    /*letter-spacing: 17px;*/
+
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+#result {
+    color: black;
+    font-size: xx-large;
+}
+#game {
+    padding-top: 10%;
+    padding-bottom: 10px;
+}
