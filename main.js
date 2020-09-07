@@ -1,4 +1,3 @@
-//test
 Array.prototype.contains = function (...r) {
     let f = JSON.stringify,
         input = Object.values(this),
