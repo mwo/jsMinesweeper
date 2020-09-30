@@ -26,7 +26,7 @@ var gameB = document.getElementById('game'),
         return gameRes;
     },
 
-    createBoard = (x, y) => [...Array(y)].map(e => [...Array(x)]),
+    createBoard = (length, xlen) => Array.from({ length }, _ => Array(xlen).fill()), //looks nicer :3
 
     sqr = pos => [
         [pos[0], pos[1] - 1],
